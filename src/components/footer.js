@@ -5,7 +5,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="text-center bg-gray-700">
-      <nav className="flex-none max-w-4xl p-4 mx-auto text-sm md:p-8">
+      <nav className="flex-none max-w-4xl p-2 mx-auto text-sm md:p-4">
         <p className="text-white justify-center">
           {` `}
           <a

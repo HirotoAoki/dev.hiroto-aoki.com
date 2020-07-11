@@ -11,8 +11,7 @@ function AboutPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="ABOUT｜dev.hiroto-aoki.com"
       />
-
-      
+    
       <h1 className="mb-4 text-5xl text-gray-800 text-center">
         ABOUT ME
       </h1>
@@ -34,14 +33,12 @@ function AboutPage() {
           </p>
         </div>
         <div className="text-center">
-          <button className="px-4 py-2 mx-2 my-2 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">          <a href="/career">
-              MY CAREER
-            </a>
-          </button>
-          <button className="px-4 py-2 mx-2 my-2 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">          <a href="/contact">
-              CONTACT
-            </a>
-          </button>
+          <a href="/career" className="px-4 py-2 mx-2 my-4 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
+            MY CAREER
+          </a>
+          <a href="/contact" className="px-4 py-2 mx-2 my-4 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
+            CONTACT
+          </a>
         </div>
       </section>
     </Layout>

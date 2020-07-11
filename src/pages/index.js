@@ -13,30 +13,26 @@ function IndexPage() {
       />
 
       <section className="text-center">
-        <h1 className="mb-4 text-5xl text-gray-800">
+        <h1 className="my-2 text-5xl text-gray-800">
           Hiking Developer
         </h1>
-        <p className="mb-4 text-base font-bold text-gray-800">
+        <p className="my-2 text-base font-bold text-gray-800">
         ー フィットネス と Web を開発する ー 
         </p>
         <img className="lg:w-1/2 md:w-1/2 mx-auto mb-8" src={topImage} alt="トップイメージ" />
-        <p className="my-2 text-base text-gray-800">
+        <p className="mb-2 text-base text-gray-800">
           フィットネス指導者 &amp; Webエンジニア
         </p>
-        <p className="my-2 text-2xl font-bold text-gray-800">
-        青木宏和（HIROTO）
+        <p className="mb-4 text-2xl font-bold text-gray-800">
+          青木宏和（HIROTO）
         </p>
-        <button className="px-4 py-2 mx-2 my-2 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
-          <a href="/about">
-            ABOUT ME
-          </a>
-        </button>
-        <button className="px-4 py-2 mx-2 my-2 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
-          <a href="/career">
-            MY CAREER
-          </a>
-        </button>
-      </section>
+        <a href="/about" className="px-4 py-2 mx-2 my-4 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
+          ABOUT ME
+        </a>
+        <a href="/career" className="px-4 py-2 mx-2 my-4 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
+          MY CAREER
+        </a>
+    </section>
     </Layout>
   );
 }

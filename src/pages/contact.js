@@ -20,7 +20,8 @@ function ContactPage() {
           仕事相談問い合わせはこちらからお願いいたします
           </p>
         </div>
-        <form className="mx-auto md:w-1/2">
+        <form className="mx-auto md:w-1/2" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks">
+          <input type="hidden" name="form-name" value="contact" />
           <label
             className="block mb-2 text-xs font-bold uppercase"
             htmlFor="name"

@@ -232,11 +232,9 @@ function CareerPage() {
         </div> 
       </section>
       <div className="text-center">
-        <button className="px-4 py-2 mx-2 my-2 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
-            <a href="/contact">
-              CONTACT
-            </a>
-        </button>
+        <a href="/contact" className="px-4 py-2 mx-2 my-4 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
+          CONTACT
+        </a>
       </div>
     </Layout>
   );
