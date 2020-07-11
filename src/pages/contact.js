@@ -31,7 +31,7 @@ function ContactPage() {
 
           <input
             className="w-full mb-6 form-input"
-            id="name"
+            name="name"
             placeholder="青木宏和"
             type="text"
             required
@@ -46,7 +46,7 @@ function ContactPage() {
           
           <input
             className="w-full mb-6 form-input"
-            id="emeil"
+            name="emeil"
             placeholder="メールアドレス"
             type="email"
             required
@@ -61,7 +61,7 @@ function ContactPage() {
 
           <textarea
             className="w-full mb-6 form-textarea"
-            id="message"
+            name="message"
             placeholder=""
             rows="8"
           />
