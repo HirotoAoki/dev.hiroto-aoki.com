@@ -39,7 +39,7 @@ function CareerPage() {
           在籍した会社での職務内容です
         </p>
         <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
-          <img className="sm:w-1/4 px-4 py-4 md:w-1/3" src={workImage1} alt="Fujitsu" />
+          <img className="px-4 py-4 md:w-1/3 w-full h-full" src={workImage1} alt="Fujitsu" />
           <div className="px-6 py-4">
             <p className="font-bold text-lg mb-2">富士通株式会社</p>
             <p className="italic text-md mb-2">2007年4月〜2015年2月</p>
@@ -55,7 +55,7 @@ function CareerPage() {
           </div>
         </div>
         <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
-          <img className="sm:w-1/4 px-4 py-4 md:w-1/3" src={workImage2} alt="Fujitsu" />
+          <img className="px-4 py-4 md:w-1/3 w-full h-full" src={workImage2} alt="Fujitsu" />
           <div className="px-6 py-4">
             <p className="font-bold text-lg mb-2">株式会社 先駆</p>
             <p className="italic text-md mb-2">2015年2月〜2015年7月</p>
@@ -71,7 +71,7 @@ function CareerPage() {
           </div>
         </div>
         <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
-          <img className="sm:w-1/4 px-4 py-4 md:w-1/3" src={workImage3} alt="BEACHTOWN" />
+          <img className="px-4 py-4 md:w-1/3 w-full h-full" src={workImage3} alt="BEACHTOWN" />
           <div className="px-6 py-4">
             <p className="font-bold text-lg mb-2">株式会社 BEACHTOWN</p>
             <p className="italic text-md mb-2">2015年7月〜2020年4月</p>
@@ -96,20 +96,20 @@ function CareerPage() {
         </p>
         <div className="flex flex-col md:flex-row">
           <div className="lg:w-1/2 md:w-1/2 my-4 flex flex-col md:flex-row rounded shadow-lg">
-            <img className="sm:w-1/4 px-4 py-4 md:w-1/3" src={skillImage1} alt="フロントエンド" />
+            <img className="px-4 py-4 md:w-1/3 w-full h-full" src={skillImage1} alt="フロントエンド" />
             <div className="px-6 py-4">
               <p className="text-center font-bold text-lg my-2">フロントエンド</p>
               <p className="text-justify text-gray-700 text-base">
                 <ul>
                   <li>HTML</li>
-                  <li>CSS - TailwindCSS</li>
-                  <li>JavaScript - GatsbyJS</li>
+                  <li>TailwindCSS / Sass</li>
+                  <li>Gatsby.js / Node.js / Vue.js</li>
                 </ul>
               </p>
             </div>
           </div>
           <div className="lg:w-1/2 md:w-1/2 my-4 flex flex-col md:flex-row rounded shadow-lg">
-            <img className="sm:w-1/4 px-4 py-4 md:w-1/3" src={skillImage2} alt="バックエンド" />
+            <img className="px-4 py-4 md:w-1/3 w-full h-full" src={skillImage2} alt="バックエンド" />
             <div className="px-6 py-4">
               <p className="text-center font-bold text-lg my-2">バックエンド</p>
               <p className="text-gray-700 text-base">
@@ -124,7 +124,7 @@ function CareerPage() {
         </div>
         <div className="flex flex-col md:flex-row">
           <div className="lg:w-1/2 md:w-1/2 my-4 flex flex-col md:flex-row rounded shadow-lg">
-            <img className="sm:w-1/4 px-4 py-4 md:w-1/3" src={skillImage3} alt="その他" />
+            <img className="px-4 py-4 md:w-1/3 w-full h-full" src={skillImage3} alt="その他" />
             <div className="px-6 py-4">
               <p className="text-center font-bold text-lg my-2">その他</p>
               <p className="text-gray-700 text-base">
@@ -137,7 +137,7 @@ function CareerPage() {
             </div>
           </div>
           <div className="lg:w-1/2 md:w-1/2 my-4 flex flex-col md:flex-row rounded shadow-lg">
-            <img className="sm:w-1/4 px-4 py-4 md:w-1/3" src={skillImage4} alt="フィットネス" />
+            <img className="px-4 py-4 md:w-1/3 w-full h-full" src={skillImage4} alt="フィットネス" />
             <div className="px-6 py-4">
               <p className="text-center font-bold text-lg my-2">フィットネス指導</p>
               <p className="text-gray-700 text-base">
@@ -159,7 +159,7 @@ function CareerPage() {
         制作した成果物です
         </p>
         <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
-          <img className="sm:w-1/4 px-4 py-4 md:w-1/3" src={portfolioImage1} alt="dev.hiroto-aoki" />
+          <img className="px-4 py-4 md:w-1/3 w-full h-full" src={portfolioImage1} alt="dev.hiroto-aoki" />
           <div className="px-6 py-4">
             <p className="font-bold text-lg mb-2">ポートフォリオサイト</p>
             <p className="my-2 text-gray-700 text-base">
@@ -183,7 +183,7 @@ function CareerPage() {
           </div>
         </div>
         <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
-          <img className="sm:w-1/4 px-4 py-4 md:w-1/3" src={portfolioImage2} alt="beach-hayama" />
+          <img className="px-4 py-4 md:w-1/3 w-full h-full" src={portfolioImage2} alt="beach-hayama" />
           <div className="px-6 py-4">
             <p className="font-bold text-lg mb-2">BEACH 葉山 Web予約サイト</p>
             <p className="my-2 text-gray-700 text-base">
@@ -207,7 +207,7 @@ function CareerPage() {
           </div>
         </div>
         <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
-          <img className="sm:w-1/4 px-4 py-4 md:w-1/3" src={portfolioImage3} alt="" />
+          <img className="px-4 py-4 md:w-1/3 w-full h-full" src={portfolioImage3} alt="" />
           <div className="px-6 py-4">
             <p className="font-bold text-lg mb-2">Laravel オリジナルシステム</p>
             <p className="my-2 text-gray-700 text-base">
