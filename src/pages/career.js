@@ -49,10 +49,10 @@ function CareerPage() {
               チームリーダーとしてメンバーとの連携、ステークホルダーとの折衝など実行力や課題解決力が養われる経験となりました。
             </p>
             <div className="py-4">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">運動指導</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">ディレクション</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">マネージメント</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Webシステム開発</span>
+              <span className="tag">運動指導</span>
+              <span className="tag">ディレクション</span>
+              <span className="tag">マネージメント</span>
+              <span className="tag">Webシステム開発</span>
             </div>
           </div>
         </div>
@@ -63,19 +63,19 @@ function CareerPage() {
             <p className="italic text-md mb-2">2015年2月〜2015年7月（業務委託）</p>
             <p className="my-2 text-gray-700 text-base">
               大学、美術館のホームページ制作に従事し、フロントエンドを担当。<br />
-              既存Webページのテンプレート化などリファクタリング、ユーザビリティ向上のための画面レイアウト変更など改善業務に努めました。
+              既存Webページのテンプレート化などのリファクタリング、ユーザビリティ向上のための画面レイアウト変更など改善業務に努めました。
             </p>
             <div className="py-4">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">HTML</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">CSS</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">JavaScript</span>
+              <span className="tag">HTML</span>
+              <span className="tag">CSS</span>
+              <span className="tag">JavaScript</span>
             </div>         
           </div>
         </div>
         <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
           <img className="px-4 py-4 md:w-1/2 w-full h-full" src={workImage1} alt="Fujitsu" />
           <div className="px-6 py-4">
-            <p className="font-bold text-lg mb-2">富士通株式会社</p>
+            <p className="font-bold text-lg mb-2">富士通 株式会社</p>
             <p className="italic text-md mb-2">2007年4月〜2015年2月（正社員）</p>
             <p className="my-2 text-gray-700 text-base">
               顧客管理システム開発に参画し、システム設計やコーティングを担当。<br />
@@ -83,9 +83,9 @@ function CareerPage() {
               担当業務外でビジネスモデル立案の討論会を発⾜させ、携帯電話デバイスを⽤いたアイディアを考案し特許出願しました。
             </p>
             <div className="py-4">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">設計</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Java</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">ビジネスモデル特許出願</span>
+              <span className="tag">設計</span>
+              <span className="tag">Java</span>
+              <span className="tag">ビジネスモデル特許出願</span>
             </div>
           </div>
         </div>
@@ -104,9 +104,9 @@ function CareerPage() {
               <p className="text-center font-bold text-lg my-2">フロントエンド</p>
               <p className="text-justify text-gray-700 text-base">
                 <ul>
-                  <li>HTML</li>
-                  <li>TailwindCSS / Sass</li>
-                  <li>Gatsby.js / Node.js / React.js</li>
+                  <li className="tag">HTML</li>
+                  <li className="tag">CSS - TailwindCSS / Sass</li>
+                  <li className="tag">JavaScript - Gatsby.js / React.js</li>
                 </ul>
               </p>
             </div>
@@ -117,9 +117,9 @@ function CareerPage() {
               <p className="text-center font-bold text-lg my-2">バックエンド</p>
               <p className="text-gray-700 text-base">
               <ul>
-                <li>PHP - Laravel / Smarty </li>
-                <li>Java - Struts</li>
-                <li>RDB - Oracle / PostgreSQL</li>
+                <li className="tag">PHP - Laravel / Smarty </li>
+                <li className="tag">Java - Struts</li>
+                <li className="tag">RDB - Oracle / PostgreSQL</li>
               </ul>
              </p>
             </div>
@@ -132,9 +132,9 @@ function CareerPage() {
               <p className="text-center font-bold text-lg my-2">その他</p>
               <p className="text-gray-700 text-base">
               <ul>
-                <li>Netlify / Xserver</li>
-                <li>Github </li>
-                <li>Visual Studio Code</li>
+                <li className="tag">Netlify / Xserver</li>
+                <li className="tag">GitHub </li>
+                <li className="tag">Visual Studio Code</li>
               </ul>
               </p>
             </div>
@@ -145,9 +145,9 @@ function CareerPage() {
               <p className="text-center font-bold text-lg my-2">フィットネス関連</p>
               <p className="text-gray-700 text-base">
               <ul>
-                <li>ランニング/ノルディックウォーキング指導 </li>
-                <li>幼児/シニア 体育指導</li>
-                <li>フィットネス施設開設ディレクション</li>
+                <li className="tag">ランニング/ノルディックウォーキング指導 </li>
+                <li className="tag">幼児/シニア 体育指導</li>
+                <li className="tag">フィットネス施設開設ディレクション</li>
               </ul>
               </p>
             </div>
@@ -169,18 +169,18 @@ function CareerPage() {
               本サイトです。経歴や技術的スキルについてまとめたJAMStackな構成のサイトです。
             </p>
             <div className="py-4">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">GatsbyJS</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">TailwindCSS</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Netlify</span>
+              <span className="tag">GatsbyJS</span>
+              <span className="tag">TailwindCSS</span>
+              <span className="tag">Netlify</span>
             </div>
-            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 mr-2 border border-green-500 hover:border-transparent rounded">
+            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 m-1 border border-green-500 hover:border-transparent rounded">
               <a href="https://dev.hiroto-aoki.com" target="_blank" rel="noopener noreferrer">
-                DEMO
+                サイトページ
               </a>
             </button>
-            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 mr-2 border border-green-500 hover:border-transparent rounded">
+            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 m-1 border border-green-500 hover:border-transparent rounded">
               <a href="https://github.com/HirotoAoki/dev.hiroto-aoki.com" target="_blank" rel="noopener noreferrer">
-                Github
+                GitHub
               </a>
             </button>
           </div>
@@ -193,13 +193,13 @@ function CareerPage() {
               フィットネスクラブの会員向けレッスン予約のWebサイトです。<br />システム開発を担当しています。
             </p>
             <div className="py-4 text-justify">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">PHP</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Smarty</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">PostgreSQL</span>
+              <span className="tag">PHP</span>
+              <span className="tag">Smarty</span>
+              <span className="tag">PostgreSQL</span>
             </div>
-            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 mr-2 border border-green-500 hover:border-transparent rounded">
+            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 m-1 border border-green-500 hover:border-transparent rounded">
               <a href="https://outdoorfitness-club.com/schedule/hayama/" target="_blank" rel="noopener noreferrer">
-                オフィシャルサイト
+                サイトページ
               </a>
             </button>
           </div>
@@ -212,13 +212,13 @@ function CareerPage() {
               東京都都立公園のフィットネスプログラム導入案件です。<br />ディレクション、Webサイトデザイン、マーケティングを担当しています。
             </p>
             <div className="py-4 text-justify">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">ディレクション</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Illustrator</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">PHP</span>
+              <span className="tag">ディレクション</span>
+              <span className="tag">Illustrator</span>
+              <span className="tag">PHP</span>
             </div>
-            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 mr-2 border border-green-500 hover:border-transparent rounded">
+            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 m-1 border border-green-500 hover:border-transparent rounded">
               <a href="https://tokyo-eastpark.com/outdoor/" target="_blank" rel="noopener noreferrer">
-                オフィシャルサイト
+                サイトページ
               </a>
             </button>
           </div>
@@ -231,16 +231,16 @@ function CareerPage() {
               Laravel オリジナルシステムの説明
             </p>
             <div className="py-4 text-justify">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Laravel</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"></span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"></span>
+              <span className="tag">Laravel</span>
+              <span className="tag"></span>
+              <span className="tag"></span>
             </div>
-            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 mr-2 border border-green-500 hover:border-transparent rounded">
+            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 m-1 border border-green-500 hover:border-transparent rounded">
               <a href="" target="_blank" rel="noopener noreferrer">
-                DEMO
+                サイトページ
               </a>
             </button>
-            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 mr-2 border border-green-500 hover:border-transparent rounded">
+            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 m-1 border border-green-500 hover:border-transparent rounded">
               <a href="https://github.com/HirotoAoki/" target="_blank" rel="noopener noreferrer">
                 Github
               </a>

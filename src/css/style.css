@@ -2,4 +2,8 @@
 @tailwind base;
 @tailwind components;
 /*! purgecss end ignore */
+
+.tag{
+    @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1;
+}
 @tailwind utilities;
