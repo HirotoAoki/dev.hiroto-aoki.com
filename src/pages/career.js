@@ -37,21 +37,22 @@ function CareerPage() {
           職務経歴
         </h2>
         <p className="pl-4 py-4 text-base text-center text-gray-700 text-base">
-          在籍した会社での職務内容です
+          所属した会社、参画したプロジェクトでの職務内容です
         </p>
         <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
-          <img className="px-4 py-4 md:w-1/2 w-full h-full" src={workImage1} alt="Fujitsu" />
+          <img className="px-4 py-4 md:w-1/2 w-full h-full" src={workImage3} alt="BEACHTOWN" />
           <div className="px-6 py-4">
-            <p className="font-bold text-lg mb-2">富士通株式会社</p>
-            <p className="italic text-md mb-2">2007年4月〜2015年2月</p>
+            <p className="font-bold text-lg mb-2">株式会社 BEACHTOWN</p>
+            <p className="italic text-md mb-2">2015年7月〜2020年3月（正社員・業務委託）</p>
             <p className="my-2 text-gray-700 text-base">
-              顧客管理システムのプロジェクトに参画しシステム設計やコーティングを担当しました。メンテナンスを容易にするために独自フレームワークを実装するなど、柔軟なシステム構築の概念を学びました。<br />
-              在籍中に個人活動としてビジネスモデルを考案し特許出願しています。
+              フィットネスプログラムの指導、および施設開設のディレクション、社内SEを兼務しWeb予約サイトの構築を担当。<br />
+              チームリーダーとしてメンバーとの連携、ステークホルダーとの折衝など実行力や課題解決力が養われる経験となりました。
             </p>
             <div className="py-4">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">設計</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Java</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">ビジネスモデル特許出願</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">運動指導</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">ディレクション</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">マネージメント</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Webシステム開発</span>
             </div>
           </div>
         </div>
@@ -59,31 +60,32 @@ function CareerPage() {
           <img className="px-4 py-4 md:w-1/2 w-full h-full" src={workImage2} alt="Fujitsu" />
           <div className="px-6 py-4">
             <p className="font-bold text-lg mb-2">株式会社 先駆</p>
-            <p className="italic text-md mb-2">2015年2月〜2015年7月</p>
+            <p className="italic text-md mb-2">2015年2月〜2015年7月（業務委託）</p>
             <p className="my-2 text-gray-700 text-base">
-              大学や美術館のホームページ制作を担当し、画面作成を担当しました。<br />
-              ユーザーの目に触れる画面を通じてマークアップ言語でのコーディングについて学びました。
+              大学、美術館のホームページ制作に従事し、フロントエンドを担当。<br />
+              既存Webページのテンプレート化などリファクタリング、ユーザビリティ向上のための画面レイアウト変更など改善業務に努めました。
             </p>
             <div className="py-4">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">HTML</span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">CSS</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">JavaScript</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">JavaScript</span>
             </div>         
           </div>
         </div>
         <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
-          <img className="px-4 py-4 md:w-1/2 w-full h-full" src={workImage3} alt="BEACHTOWN" />
+          <img className="px-4 py-4 md:w-1/2 w-full h-full" src={workImage1} alt="Fujitsu" />
           <div className="px-6 py-4">
-            <p className="font-bold text-lg mb-2">株式会社 BEACHTOWN</p>
-            <p className="italic text-md mb-2">2015年7月〜2020年4月</p>
+            <p className="font-bold text-lg mb-2">富士通株式会社</p>
+            <p className="italic text-md mb-2">2007年4月〜2015年2月（正社員）</p>
             <p className="my-2 text-gray-700 text-base">
-              フィットネスプログラムの指導、および施設開設のディレクション、社内SEを兼務しWeb予約サイトの構築を担当しました。<br />
-              マネージメント、課題解決力が養われる経験となりました。
+              顧客管理システム開発に参画し、システム設計やコーティングを担当。<br />
+              メンテナンスを容易にするために独自フレームワークを実装するなど、柔軟なシステム構築の概念を学びました。<br />
+              担当業務外でビジネスモデル立案の討論会を発⾜させ、携帯電話デバイスを⽤いたアイディアを考案し特許出願しました。
             </p>
             <div className="py-4">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">インストラクター</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">マネージメント</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">システム開発</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">設計</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Java</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">ビジネスモデル特許出願</span>
             </div>
           </div>
         </div>
@@ -104,7 +106,7 @@ function CareerPage() {
                 <ul>
                   <li>HTML</li>
                   <li>TailwindCSS / Sass</li>
-                  <li>Gatsby.js / Node.js / Vue.js</li>
+                  <li>Gatsby.js / Node.js / React.js</li>
                 </ul>
               </p>
             </div>
@@ -130,8 +132,8 @@ function CareerPage() {
               <p className="text-center font-bold text-lg my-2">その他</p>
               <p className="text-gray-700 text-base">
               <ul>
-                <li>Netlify </li>
-                <li>Xserver / お名前.com</li>
+                <li>Netlify / Xserver</li>
+                <li>Github </li>
                 <li>Visual Studio Code</li>
               </ul>
               </p>
@@ -143,9 +145,8 @@ function CareerPage() {
               <p className="text-center font-bold text-lg my-2">フィットネス関連</p>
               <p className="text-gray-700 text-base">
               <ul>
-                <li>ランニング指導 </li>
-                <li>ノルディックウォーキング指導</li>
-                <li>体幹トレーニング指導</li>
+                <li>ランニング/ノルディックウォーキング指導 </li>
+                <li>幼児/シニア 体育指導</li>
                 <li>フィットネス施設開設ディレクション</li>
               </ul>
               </p>
@@ -165,7 +166,7 @@ function CareerPage() {
           <div className="px-6 py-4">
             <p className="font-bold text-lg mb-2">個人ポートフォリオサイト</p>
             <p className="my-2 text-gray-700 text-base">
-              本サイトです。経歴や技術的スキルについてまとめています。
+              本サイトです。経歴や技術的スキルについてまとめたJAMStackな構成のサイトです。
             </p>
             <div className="py-4">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">GatsbyJS</span>
