@@ -66,7 +66,7 @@ function ContactPage() {
             rows="8"
           />
           <div className="text-center">
-            <button className="px-4 py-2 mx-2 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
+            <button className="button hover:border-gray-700 hover:bg-gray-600">
               送信
             </button>
           </div>

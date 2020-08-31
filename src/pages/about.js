@@ -28,15 +28,15 @@ function AboutPage() {
             フィットネス指導とシステム開発に従事しています。<br /><br />
             学生時代、カナダでの英語留学中にプログラミングを学び、大学卒業後にSIer企業でシステムエンジニアとしてキャリアをスタート。
             その後、社外での活動や趣味が高じてフィットネススポーツ業界にインストラクターとして転身。<br />
-            フィットネス指導者＆Webエンジニアとしてのパラレルキャリア構築に向けて日々修練中。<br /><br />
+            フィットネス指導者＆Webエンジニアとしてのパラレルキャリアを構築するために日々修練中。<br /><br />
             運動プログラムやWebシステムの開発を通じて、教育・福祉分野に関わる社会課題に携わっていきたいです。
           </p>
         </div>
         <div className="text-center">
-          <a href="/career" className="px-4 py-2 mx-2 my-4 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
+          <a href="/career" className="button hover:border-gray-700 hover:bg-gray-600">
             MY CAREER
           </a>
-          <a href="/contact" className="px-4 py-2 mx-2 my-4 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
+          <a href="/contact" className="button hover:border-gray-700 hover:bg-gray-600">
             CONTACT
           </a>
         </div>

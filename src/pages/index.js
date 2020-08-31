@@ -26,10 +26,10 @@ function IndexPage() {
         <p className="mb-4 text-2xl font-bold text-gray-800">
           青木宏和（HIROTO）
         </p>
-        <a href="/about" className="px-4 py-2 mx-2 my-4 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
+        <a href="/about" className="button hover:border-gray-700 hover:bg-gray-600">
           ABOUT ME
         </a>
-        <a href="/career" className="px-4 py-2 mx-2 my-4 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600 justify-center">
+        <a href="/career" className="button hover:border-gray-700 hover:bg-gray-600">
           MY CAREER
         </a>
     </section>
