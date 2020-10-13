@@ -5,10 +5,13 @@ import SEO from "../components/seo";
 import workImage1 from "../images/fujitsu.png";
 import workImage2 from "../images/senku.png";
 import workImage3 from "../images/beachtown.png";
+import workImage4 from "../images/logo_coconats.png";
+import activityImage1 from "../images/interlaken-japan.jpg";
+import activityImage2 from "../images/shirahama-koen-parkrun.jpg";
+import activityImage3 from "../images/thegreatwall.jpg";
 import portfolioImage1 from "../images/hiroto-aoki.png";
 import portfolioImage2 from "../images/beach-hayama.png";
 import portfolioImage3 from "../images/tep.png";
-import portfolioImage4 from "../images/view.jpg";
 import skillImage1 from "../images/frontend.svg";
 import skillImage2 from "../images/backend.svg";
 import skillImage3 from "../images/tools.svg";
@@ -39,6 +42,21 @@ function CareerPage() {
         <p className="pl-4 py-4 text-base text-center text-gray-700 text-base">
           所属した会社、参画したプロジェクトでの職務内容です
         </p>
+        <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
+          <img className="px-4 py-4 md:w-1/2 w-full h-full" src={workImage4} alt="BEACHTOWN" />
+          <div className="px-6 py-4">
+            <p className="font-bold text-lg mb-2">coconats</p>
+            <p className="italic text-md mb-2">2015年2月〜現在（個人事業）</p>
+            <p className="my-2 text-gray-700 text-base">
+              ランニング・ノルディックウォーキングなど屋外のフィットネスプログラムを指導。（活動エリア：名古屋）<br />
+              コーポレートサイト・個人ホームページのWebサイト制作を手掛けています。
+            </p>
+            <div className="py-4">
+              <span className="tag">フィットネス指導</span>
+              <span className="tag">Webサイト制作</span>
+            </div>
+         </div>
+        </div>
         <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
           <img className="px-4 py-4 md:w-1/2 w-full h-full" src={workImage3} alt="BEACHTOWN" />
           <div className="px-6 py-4">
@@ -87,6 +105,61 @@ function CareerPage() {
               <span className="tag">Java</span>
               <span className="tag">ビジネスモデル特許出願</span>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="my-8">
+        <h2 className="my-2 py-1 text-center text-xl font-bold border-2 border-gray-900">
+          社会活動
+        </h2>
+        <p className="pl-4 py-4 text-base text-center text-gray-700 text-base">
+          業務外での活動内容です
+        </p>
+        <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
+          <img className="px-4 py-4 md:w-1/3 w-full h-full" src={activityImage1} alt="interlaken専属コーチ" />
+          <div className="px-6 py-4">
+            <p className="font-bold text-lg mb-2">interlaken 専属コーチ</p>
+            <p className="italic text-md mb-2">2020年1月〜現在</p>
+            <p className="my-2 text-gray-700 text-base">
+              名古屋市のスポーツショップ interlakenにてノルディックウォーキングの講習会、ツアーリングプログラムを担当。
+            </p>
+            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 m-1 border border-green-500 hover:border-transparent rounded">
+              <a href="https://interlaken.jp/" target="_blank" rel="noopener noreferrer">
+                interlaken 公式HP
+              </a>
+            </button>
+          </div>
+        </div>
+        <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
+          <img className="px-4 py-4 md:w-1/3 w-full h-full" src={activityImage2} alt="白浜公園parkrun イベントディレクター" />
+          <div className="px-6 py-4">
+            <p className="font-bold text-lg mb-2">白浜公園parkrun イベントディレクター</p>
+            <p className="italic text-md mb-2">2020年4月〜現在</p>
+            <p className="my-2 text-gray-700 text-base">
+            世界中で毎週開催されているコミュニティーイベントparkrunを愛知県豊田市の白浜公園に誘致。<br />
+            地域活性のハブとなり健康増進、スポーツ振興を応援する企画を目指す。
+            </p>
+            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 m-1 border border-green-500 hover:border-transparent rounded">
+              <a href="https://www.parkrun.jp/shirahamakoen/" target="_blank" rel="noopener noreferrer">
+                白浜公園parkrun 公式HP
+              </a>
+            </button>
+          </div>
+        </div>
+        <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
+          <img className="px-4 py-4 md:w-1/3 w-full h-full" src={activityImage3} alt="万里の長城マラソン" />
+          <div className="px-6 py-4">
+            <p className="font-bold text-lg mb-2">万里の長城マラソン　アンバサダー</p>
+            <p className="italic text-md mb-2">2014年5月〜現在</p>
+            <p className="my-2 text-gray-700 text-base">
+            日中友好を願い発足した本大会のアンバサダーを努める。<br />
+            出場実績：2013年、2015年、2017年 優勝
+            </p>
+            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 m-1 border border-green-500 hover:border-transparent rounded">
+              <a href="https://greatwallrun.com/" target="_blank" rel="noopener noreferrer">
+                万里の長城マラソン 公式HP
+              </a>
+            </button>
           </div>
         </div>
       </section>
@@ -223,30 +296,6 @@ function CareerPage() {
             </button>
           </div>
         </div>
-        <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
-          <img className="px-4 py-4 md:w-1/2 w-full h-full" src={portfolioImage4} alt="" />
-          <div className="px-6 py-4">
-            <p className="font-bold text-lg mb-2">Laravel オリジナルシステム</p>
-            <p className="my-2 text-gray-700 text-base">
-              Laravel オリジナルシステムの説明
-            </p>
-            <div className="py-4 text-justify">
-              <span className="tag">Laravel</span>
-              <span className="tag"></span>
-              <span className="tag"></span>
-            </div>
-            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 m-1 border border-green-500 hover:border-transparent rounded">
-              <a href="" target="_blank" rel="noopener noreferrer">
-                サイトページ
-              </a>
-            </button>
-            <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-1 px-3 m-1 border border-green-500 hover:border-transparent rounded">
-              <a href="https://github.com/HirotoAoki/" target="_blank" rel="noopener noreferrer">
-                Github
-              </a>
-            </button>
-          </div>
-        </div> 
       </section>
       <div className="text-center">
         <a href="/contact" className="button hover:border-gray-700 hover:bg-gray-600">
