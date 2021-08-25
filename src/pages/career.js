@@ -6,6 +6,7 @@ import workImage1 from "../images/fujitsu.png";
 import workImage2 from "../images/senku.png";
 import workImage3 from "../images/beachtown.png";
 import workImage4 from "../images/logo_coconats.png";
+import workImage5 from "../images/educom.png";
 import activityImage1 from "../images/interlaken-japan.jpg";
 import activityImage2 from "../images/shirahama-koen-parkrun.jpg";
 import activityImage3 from "../images/thegreatwall.jpg";
@@ -13,10 +14,7 @@ import portfolioImage1 from "../images/hiroto-aoki.png";
 import portfolioImage2 from "../images/beach-hayama.png";
 import portfolioImage3 from "../images/tep.png";
 import skillImage1 from "../images/frontend.svg";
-import skillImage2 from "../images/backend.svg";
-import skillImage3 from "../images/tools.svg";
-import skillImage4 from "../images/fitness.svg";
-
+import skillImage2 from "../images/fitness.svg";
 
 
 function CareerPage() {
@@ -48,8 +46,8 @@ function CareerPage() {
             <p className="font-bold text-lg mb-2">coconats</p>
             <p className="italic text-md mb-2">2015年2月〜現在（個人事業）</p>
             <p className="my-2 text-gray-700 text-base">
-              ランニング・ノルディックウォーキングなど屋外のフィットネスプログラムを指導。（活動エリア：名古屋）<br />
-              コーポレートサイト・個人ホームページのWebサイト制作を手掛けています。
+              ランニング・ノルディックウォーキングなど屋外のフィットネスプログラムを指導。（活動エリア：愛知県　名古屋市/豊田市）<br />
+              コーポレートサイト・個人ホームページのWebサイト制作を手掛ける。
             </p>
             <div className="py-4">
               <span className="tag">フィットネス指導</span>
@@ -58,13 +56,29 @@ function CareerPage() {
          </div>
         </div>
         <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
+          <img className="px-4 py-4 md:w-1/2 w-full h-full" src={workImage5} alt="EDUCOM" />
+          <div className="px-6 py-4">
+            <p className="font-bold text-lg mb-2">株式会社 EDUCOM</p>
+            <p className="italic text-md mb-2">2020年12月〜2021年6月（契約社員）</p>
+            <p className="my-2 text-gray-700 text-base">
+              教育ネットワークシステムを導入した学校のICT活用をサポート。<br />
+              サポート職としてとして教職員からのシステムに関する問い合わせ対応に従事。
+            </p>
+            <div className="py-4">
+              <span className="tag">カスタマーサポート</span>
+              <span className="tag"></span>
+              <span className="tag"></span>
+            </div>
+          </div>
+        </div>
+        <div className="my-4 flex flex-col md:flex-row rounded shadow-lg">
           <img className="px-4 py-4 md:w-1/2 w-full h-full" src={workImage3} alt="BEACHTOWN" />
           <div className="px-6 py-4">
             <p className="font-bold text-lg mb-2">株式会社 BEACHTOWN</p>
             <p className="italic text-md mb-2">2015年7月〜2020年3月（正社員・業務委託）</p>
             <p className="my-2 text-gray-700 text-base">
               フィットネスプログラムの指導、および施設開設のディレクション、社内SEを兼務しWeb予約サイトの構築を担当。<br />
-              チームリーダーとしてメンバーとの連携、ステークホルダーとの折衝など実行力や課題解決力が養われる経験となりました。
+              チームリーダーとしてメンバーとの連携、ステークホルダーとの折衝に従事。
             </p>
             <div className="py-4">
               <span className="tag">運動指導</span>
@@ -81,7 +95,7 @@ function CareerPage() {
             <p className="italic text-md mb-2">2015年2月〜2015年7月（業務委託）</p>
             <p className="my-2 text-gray-700 text-base">
               大学、美術館のホームページ制作に従事し、フロントエンドを担当。<br />
-              既存Webページのテンプレート化などのリファクタリング、ユーザビリティ向上のための画面レイアウト変更など改善業務に努めました。
+              既存Webページのテンプレート化などのリファクタリング、ユーザビリティ向上のための画面レイアウト変更など改善業務に従事。
             </p>
             <div className="py-4">
               <span className="tag">HTML</span>
@@ -97,12 +111,12 @@ function CareerPage() {
             <p className="italic text-md mb-2">2007年4月〜2015年2月（正社員）</p>
             <p className="my-2 text-gray-700 text-base">
               顧客管理システム開発に参画し、システム設計やコーティングを担当。<br />
-              メンテナンスを容易にするために独自フレームワークを実装するなど、柔軟なシステム構築の概念を学びました。<br />
-              担当業務外でビジネスモデル立案の討論会を発⾜させ、携帯電話デバイスを⽤いたアイディアを考案し特許出願しました。
+              メンテナンスを容易にするために独自フレームワークの実装、柔軟なシステム構築の概念を学ぶ。<br />
+              担当業務外でビジネスモデル立案の討論会を発⾜させ、携帯電話デバイスを⽤いたアイディアを考案し特許出願。
             </p>
             <div className="py-4">
               <span className="tag">設計</span>
-              <span className="tag">Java</span>
+              <span className="tag">Javaコーディング</span>
               <span className="tag">ビジネスモデル特許出願</span>
             </div>
           </div>
@@ -172,57 +186,35 @@ function CareerPage() {
         </p>
         <div className="flex flex-col md:flex-row">
           <div className="lg:w-1/2 md:w-1/2 my-4 flex flex-col md:flex-row rounded shadow-lg">
-            <img className="px-4 py-4 md:w-1/3 w-full h-full" src={skillImage1} alt="フロントエンド" />
+            <img className="px-4 py-4 md:w-1/3 w-full h-full" src={skillImage1} alt="Webプログラミング" />
             <div className="px-6 py-4">
-              <p className="text-center font-bold text-lg my-2">フロントエンド</p>
+              <p className="text-center font-bold text-lg my-2">Webプログラムミング</p>
               <p className="text-justify text-gray-700 text-base">
                 <ul>
                   <li className="tag">HTML</li>
-                  <li className="tag">CSS - TailwindCSS / Sass</li>
+                  <li className="tag">CSS / Sass</li>
                   <li className="tag">JavaScript - Gatsby.js / React.js</li>
+                  <li className="tag">PHP - Laravel / Smarty </li>
+                  <li className="tag">Java - Struts</li>
+                  <li className="tag">RDB - Oracle / PostgreSQL</li>
                 </ul>
               </p>
             </div>
           </div>
           <div className="lg:w-1/2 md:w-1/2 my-4 flex flex-col md:flex-row rounded shadow-lg">
-            <img className="px-4 py-4 md:w-1/3 w-full h-full" src={skillImage2} alt="バックエンド" />
+            <img className="px-4 py-4 md:w-1/3 w-full h-full" src={skillImage2} alt="フィットネスプログラム" />
             <div className="px-6 py-4">
-              <p className="text-center font-bold text-lg my-2">バックエンド</p>
+              <p className="text-center font-bold text-lg my-2">フィットネスプログラム</p>
               <p className="text-gray-700 text-base">
               <ul>
-                <li className="tag">PHP - Laravel / Smarty </li>
-                <li className="tag">Java - Struts</li>
-                <li className="tag">RDB - Oracle / PostgreSQL</li>
+                <li className="tag">ランニング</li> 
+                <li className="tag">ノルディックウォーキング </li>
+                <li className="tag">体幹トレーンング </li>
+                <li className="tag">筋膜リリース </li>
+                <li className="tag">小学生かけっこ教室</li>
+                <li className="tag">施設開設ディレクション</li>
               </ul>
              </p>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col md:flex-row">
-          <div className="lg:w-1/2 md:w-1/2 my-4 flex flex-col md:flex-row rounded shadow-lg">
-            <img className="px-4 py-4 md:w-1/3 w-full h-full" src={skillImage3} alt="その他" />
-            <div className="px-6 py-4">
-              <p className="text-center font-bold text-lg my-2">その他</p>
-              <p className="text-gray-700 text-base">
-              <ul>
-                <li className="tag">Netlify / Xserver</li>
-                <li className="tag">GitHub </li>
-                <li className="tag">Visual Studio Code</li>
-              </ul>
-              </p>
-            </div>
-          </div>
-          <div className="lg:w-1/2 md:w-1/2 my-4 flex flex-col md:flex-row rounded shadow-lg">
-            <img className="px-4 py-4 md:w-1/3 w-full h-full" src={skillImage4} alt="フィットネス" />
-            <div className="px-6 py-4">
-              <p className="text-center font-bold text-lg my-2">フィットネス関連</p>
-              <p className="text-gray-700 text-base">
-              <ul>
-                <li className="tag">ランニング/ノルディックウォーキング指導 </li>
-                <li className="tag">幼児/シニア 体育指導</li>
-                <li className="tag">フィットネス施設開設ディレクション</li>
-              </ul>
-              </p>
             </div>
           </div>
         </div>
