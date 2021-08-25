@@ -13,7 +13,7 @@ import activityImage3 from "../images/thegreatwall.jpg";
 import portfolioImage1 from "../images/hiroto-aoki.png";
 import portfolioImage2 from "../images/beach-hayama.png";
 import portfolioImage3 from "../images/tep.png";
-import skillImage1 from "../images/frontend.svg";
+import skillImage1 from "../images/backend.svg";
 import skillImage2 from "../images/fitness.svg";
 
 
@@ -66,7 +66,7 @@ function CareerPage() {
             </p>
             <div className="py-4">
               <span className="tag">カスタマーサポート</span>
-              <span className="tag"></span>
+              <span className="tag">校務支援システム</span>
               <span className="tag"></span>
             </div>
           </div>
@@ -82,8 +82,8 @@ function CareerPage() {
             </p>
             <div className="py-4">
               <span className="tag">運動指導</span>
-              <span className="tag">ディレクション</span>
-              <span className="tag">マネージメント</span>
+              <span className="tag">施設開設ディレクション</span>
+              <span className="tag">施設管理</span>
               <span className="tag">Webシステム開発</span>
             </div>
           </div>
