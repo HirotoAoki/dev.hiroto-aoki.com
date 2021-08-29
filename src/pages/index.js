@@ -24,7 +24,7 @@ function IndexPage() {
           フィットネス指導者 &amp; Webエンジニア
         </p>
         <p className="mb-4 text-2xl font-bold text-gray-800">
-          青木宏和（HIROTO）
+          青木宏和
         </p>
         <a href="/about" className="button hover:border-gray-700 hover:bg-gray-600">
           ABOUT ME
