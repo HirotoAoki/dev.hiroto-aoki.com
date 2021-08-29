@@ -62,12 +62,11 @@ function CareerPage() {
             <p className="italic text-md mb-2">2020年12月〜2021年6月（契約社員）</p>
             <p className="my-2 text-gray-700 text-base">
               教育ネットワークシステムを導入した学校のICT活用をサポート。<br />
-              サポート職としてとして教職員からのシステムに関する問い合わせ対応に従事。
+              サポート職として教職員からのシステムに関する問い合わせ対応に従事。
             </p>
             <div className="py-4">
               <span className="tag">カスタマーサポート</span>
               <span className="tag">校務支援システム</span>
-              <span className="tag"></span>
             </div>
           </div>
         </div>
